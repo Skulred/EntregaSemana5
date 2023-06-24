@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 20px;
     background-image: linear-gradient(rgba(235, 131, 52, 0.75),rgba(5, 5, 5, 0.75)),
-    url(./PSP/imagenes/libros.jpg);
+    url(/PSP/imagenes/libros.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     height: 1800px;
