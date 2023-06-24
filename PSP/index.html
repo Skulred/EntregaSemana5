@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contador de Tareas Pendientes</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/styles.css"
+    />
+  </head>
+  <body>
+    <h1>Contador de Tareas Pendientes</h1>
+    <div class="container">
+      <input type="text" id="taskInput" placeholder="Agregar una tarea" />
+      <button id="addTaskButton">Agregar</button>
+      <select id="daySelect" style="height: 30px; width: 298px;" >
+        <option value="Lunes">Lunes</option>
+        <option value="Martes">Martes</option>
+        <option value="Miércoles">Miércoles</option>
+        <option value="Jueves">Jueves</option>
+        <option value="Viernes">Viernes</option>
+        <option value="Sábado">Sábado</option>
+        <option value="Domingo">Domingo</option>
+      </select>
+      <ul id="taskList"></ul>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
