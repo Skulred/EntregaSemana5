@@ -11,19 +11,52 @@ main{
     height: auto;
     flex-shrink: 0
 }
-
-.btnIniciar {
-    position: awa;
+.btnNombre{
+    position: relative;
     background-color: #0a0805;
     color: rgb(255, 255, 255);
     padding: 6px 20px;
-    font-size: 16px;
+    font-size: 26px;
     border: none;
     border-radius: 15px;
     cursor: pointer;
+    left: 230px;
     top: 300px;
+}
+
+.btnIniciar {
+    position: relative;
+    background-color: #0a0805;
+    color: rgb(255, 255, 255);
+    padding: 6px 20px;
+    font-size: 26px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    left: -690px;
+    top: 470px;
+    
     
   }
+  .btnsalir {
+    position: relative;
+    background-color: #0a0805;
+    color: rgb(255, 255, 255);
+    padding: 6px 20px;
+    font-size: 26px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    left: 400px;
+    top: 400px;
+    
+  }
+  button:hover {
+    background-color: #254101;
+}
+input:hover {
+    background-color: #254101;
+}
  body {
         font-family: Tahoma, sans-serif;
         background-color: #ffffff;
@@ -41,8 +74,9 @@ main{
 
 #ImagenPrincipal{
 position: absolute;
-left: 223px;
-top: 140px;
+left: 400px;
+top: 40px;
 }
+
 
 
