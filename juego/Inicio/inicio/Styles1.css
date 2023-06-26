@@ -1,15 +1,29 @@
-*{
+
+main{
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}   *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    width: auto;
+    height: auto;
+    flex-shrink: 0
 }
-#ImagenAnimales1{
-    position: absolute;
-    left: 60.88%;
-    right: 5.03%;
-    top: 12.5%;
-    bottom: 42.5%;
-}
+
+.btnIniciar {
+    position: awa;
+    background-color: #0a0805;
+    color: rgb(255, 255, 255);
+    padding: 6px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    top: 300px;
+    
+  }
  body {
         font-family: Tahoma, sans-serif;
         background-color: #ffffff;
@@ -18,41 +32,17 @@
         background-image: linear-gradient(rgba(79, 207, 62, 0.75),rgba(5, 5, 5, 0.75)),
         url(./5371964\ 1.png);
         background-repeat: no-repeat;
-        background-position: center center;
-        height: 1800px;
+        background-position: center;
+        height: auto;
         background-attachment: fixed;
         background-size: cover;
 }
 
-main{
-    width: 100%;
-    height: 500px;
-}
-#Nombre{
-position: absolute;
-left: 96px;
-bottom: 494px;
-}
-.textNombre{
-color: #FFF;
-font-size: 20px; 
-font-family: Inter;
-font-weight: 400; 
-word-wrap: break-word
-}
-.btnsalir{
-width: 50px;
-height: 80px;
-position: absolute;
-left: 96px;
-bottom: 47px;
-border-radius: 15px;
-left: 0px; 
-top: 0px; 
-}
+
 #ImagenPrincipal{
 position: absolute;
-left: 523px;
+left: 223px;
 top: 140px;
 }
+
 
