@@ -9,7 +9,7 @@ main{
     margin: 0;
     width: auto;
     height: auto;
-    flex-shrink: 0
+    background-size: cover;
 }
 .btnNombre{
     position: relative;

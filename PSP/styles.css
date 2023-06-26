@@ -7,7 +7,7 @@ body {
     url(/PSP/imagenes/libros.jpg);
     background-repeat: no-repeat;
     background-position: center center;
-    height: 1800px;
+    height: auto;
     background-attachment: fixed;
     background-size: cover;
   }
