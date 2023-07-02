@@ -33,21 +33,21 @@
       </ImageView>
       <VBox layoutX="108.0" layoutY="531.0" prefHeight="65.0" prefWidth="272.0">
          <children>
-            <Button mnemonicParsing="false" onMousePressed="#labSalir" prefHeight="74.0" prefWidth="275.0" styleClass="botonSalir" stylesheets="@Styles.css" text="salir" textFill="#fffbfb">
+            <Button mnemonicParsing="false" onMouseClicked="#labCerrar" onMousePressed="#labSalir" prefHeight="74.0" prefWidth="275.0" styleClass="botonSalir" stylesheets="@Styles.css" text="salir" textFill="#fffbfb">
                <font>
                   <Font name="Comic Sans MS" size="36.0" />
                </font>
             </Button>
          </children>
       </VBox>
-      <Button layoutX="564.0" layoutY="531.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="275.0" styleClass="botonIniciar" stylesheets="@Styles.css" text="inciar" textFill="#fffbfb">
+      <Button fx:id="btnlogin" layoutX="564.0" layoutY="531.0" mnemonicParsing="false" onAction="#eventAction" prefHeight="74.0" prefWidth="275.0" styleClass="botonIniciar" stylesheets="@Styles.css" text="inciar" textFill="#fffbfb">
          <font>
             <Font name="Comic Sans MS" size="36.0" />
          </font>
       </Button>
       <VBox layoutX="252.0" layoutY="328.0" prefHeight="49.0" prefWidth="423.0" spacing="10.0">
          <children>
-            <TextField prefHeight="50.0" prefWidth="423.0" promptText="Inresa tu nombre" styleClass="Nombre" stylesheets="@Styles.css">
+            <TextField fx:id="txtuser" onKeyTyped="#eventKey" prefHeight="50.0" prefWidth="423.0" promptText="Inresa tu nombre" styleClass="Nombre" stylesheets="@Styles.css">
                <font>
                   <Font name="Comic Sans MS" size="36.0" />
                </font>

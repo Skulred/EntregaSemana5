@@ -8,7 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-    <jar href="Login.jar" size="926927" download="eager" />
+    <jar href="Login.jar" size="927944" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="login.Login"  name="Login" />
   <update check="always"/>
