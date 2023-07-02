@@ -42,26 +42,5 @@ public class Login1Controller implements Initializable {
      private TextField txtuser;
     @FXML
      private Button btnlogin;
- 
-    @FXML // metodo para que no se puedan ingresar espacios en blanco en el nombre
-    private void eventKey(KeyEvent event){
-        Object evt = event.getSource();
-        
-        if (event.equals(txtuser)){
-            if(event.getCharacter().equals(""))
-                event.consume();
-        }
-    }
-    @FXML
-    private void eventAction(ActionEvent event){
-        Object evt = event.getSource();
-        if(evt.equals(btnlogin)){
-        if (txtuser.getText().isEmpty()){
-            String user = txtuser.getText();
-        }else {
-            JOptionPane.showMessageDialog(null, "Escribe el nombre");
-        }
-       }
-        
-    }
 }
+
