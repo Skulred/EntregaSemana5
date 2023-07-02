@@ -62,19 +62,20 @@ input:hover {
         background-color: #ffffff;
         margin: 0;
         padding: 20px;
-        background-image: linear-gradient(rgba(79, 207, 62, 0.75),rgba(5, 5, 5, 0.75)),
-        url(./5371964\ 1.png);
+        background-image: linear-gradient(rgba(79, 207, 62, 0.041),rgba(5, 5, 5, 0.082)),
+        url(./Fondo1.png);
         background-repeat: no-repeat;
-        background-position: center;
+        background-position: absolute;
         height: auto;
         background-attachment: fixed;
         background-size: cover;
+        
 }
 
 
 #ImagenPrincipal{
 position: absolute;
-left: 400px;
+left: 470px;
 top: 40px;
 }
 
